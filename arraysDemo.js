@@ -32,5 +32,11 @@ console.log("----")
 
 // Remove portion of array
 myPokemon.splice(3, 2)
-myPokemon.splice(2, 0,"Bulbasaur")
+
+//Insert into array
+console.log("###")
 console.log(myPokemon)
+myPokemon.splice(0,0,"Bob")
+console.log(myPokemon)
+
+myPokemon.splice()
