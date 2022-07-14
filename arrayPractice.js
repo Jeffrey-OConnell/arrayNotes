@@ -36,3 +36,15 @@ console.log("-----")
 let lastElement = arrayToRotate.pop()
 arrayToRotate.unshift(lastElement)
 console.log(arrayToRotate)
+
+
+console.log("-----")
+
+let testArray = [6,3,4,1,2,4]
+let sum = 0
+for(i = 0; i < testArray.length;i++){
+    sum = sum + testArray[i];
+    console.log(`Num: ${testArray[i]} Sum: ${sum}`)
+}
+
+
