@@ -27,3 +27,12 @@ console.log(arrSlice)
 //SPLICE - REMOVE PORTION OF ARRAY
 myArr.splice(2,4)
 console.log(myArr)
+
+//EXERCISE - ROTATE
+let rotateNumber = 1
+let arrayToRotate = [2,6,4,78,2]
+
+console.log("-----")
+let lastElement = arrayToRotate.pop()
+arrayToRotate.unshift(lastElement)
+console.log(arrayToRotate)
