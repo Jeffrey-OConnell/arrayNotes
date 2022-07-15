@@ -1,1 +1,0 @@
-let myPokemon = ["Gengar", "Pikachu", "Eevee", "Dragonite", "Charizard"]

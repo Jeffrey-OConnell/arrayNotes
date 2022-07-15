@@ -1,7 +1,7 @@
 let myPokemon = ["Gengar", "Pikachu", "Eevee", "Dragonite", "Charizard"]
 
 console.log(myPokemon.length)
-console.log("-------------------")
+console.log("--------------------")
 
 
 for(let i = 0; i < myPokemon.length; i++){
@@ -13,7 +13,7 @@ for(let i = 0; i < myPokemon.length; i++){
 }
 console.log(myPokemon)
 
-console.log("-------------------")
+console.log("--------------------")
 
 for (let i = 0; i < myPokemon.length; i++){
     if(myPokemon[i] === "Bulbasaur"){
@@ -21,7 +21,7 @@ for (let i = 0; i < myPokemon.length; i++){
     }
 }
 
-console.log("-------------------")
+console.log("--------------------")
 
 for (let i = 0; i < myPokemon.length; i++){
     if(myPokemon[i] !== "Bulbasaur"){
